@@ -1,0 +1,143 @@
+{
+	"_type": "export",
+	"__export_format": 3,
+	"__export_date": "2018-04-23T00:48:33.043Z",
+	"__export_source": "insomnia.desktop.app:v5.15.0",
+	"resources": [
+		{
+			"_id": "wrk_5efc15aa72b741629d5e4ecded727388",
+			"created": 1496935364442,
+			"description": "",
+			"modified": 1524444483340,
+			"name": "Noders Hapi",
+			"parentId": null,
+			"_type": "workspace"
+		},
+		{
+			"_id": "env_e0ba5fd12a2f4d9886aae76cb270c6c2",
+			"color": null,
+			"created": 1497814513802,
+			"data": {},
+			"isPrivate": false,
+			"modified": 1497814513802,
+			"name": "Base Environment",
+			"parentId": "wrk_5efc15aa72b741629d5e4ecded727388",
+			"_type": "environment"
+		},
+		{
+			"_id": "jar_0835f4fa96d04627a188b698406f23a8",
+			"cookies": [],
+			"created": 1499891155987,
+			"modified": 1499891155987,
+			"name": "Default Jar",
+			"parentId": "wrk_5efc15aa72b741629d5e4ecded727388",
+			"_type": "cookie_jar"
+		},
+		{
+			"_id": "req_474fcdc66ed1483c874ce0b473224d68",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/x-www-form-urlencoded",
+				"params": [
+					{
+						"id": "pair_d2eb34e4f9b04bf7b85d27498ec168c0",
+						"name": "nombre",
+						"value": "Comunidad"
+					},
+					{
+						"id": "pair_635ba1e80c1a41f8a69fe29992250571",
+						"name": "apellido",
+						"value": "Noders"
+					}
+				]
+			},
+			"created": 1524441013912,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_c2b2fabbdee74b23b9be92bb41f5a4fd",
+					"name": "Content-Type",
+					"value": "application/x-www-form-urlencoded"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1524441013920,
+			"method": "POST",
+			"modified": 1524443017404,
+			"name": "Prueba POST Noders",
+			"parameters": [],
+			"parentId": "wrk_5efc15aa72b741629d5e4ecded727388",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://localhost:3000/usuarios",
+			"_type": "request"
+		},
+		{
+			"_id": "req_cd7bb813df144514b286265d2674512f",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/x-www-form-urlencoded",
+				"params": [
+					{
+						"id": "pair_d2eb34e4f9b04bf7b85d27498ec168c0",
+						"name": "nombre",
+						"value": "Comunidad Awesome"
+					},
+					{
+						"id": "pair_635ba1e80c1a41f8a69fe29992250571",
+						"name": "apellido",
+						"value": "Noders"
+					}
+				]
+			},
+			"created": 1524442879111,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_ea894da9273a4fb694f1482248d94a69",
+					"name": "Content-Type",
+					"value": "application/x-www-form-urlencoded"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1524335664376.5,
+			"method": "PUT",
+			"modified": 1524442968710,
+			"name": "Prueba PUT Noders",
+			"parameters": [],
+			"parentId": "wrk_5efc15aa72b741629d5e4ecded727388",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://localhost:3000/usuarios/1",
+			"_type": "request"
+		},
+		{
+			"_id": "req_1f8dc32dd89c4401807077fdce853ab2",
+			"authentication": {},
+			"body": {},
+			"created": 1524442904563,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1524282989604.75,
+			"method": "DELETE",
+			"modified": 1524444164598,
+			"name": "Prueba DELETE Noders",
+			"parameters": [],
+			"parentId": "wrk_5efc15aa72b741629d5e4ecded727388",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://localhost:3000/usuarios/1",
+			"_type": "request"
+		}
+	]
+}
