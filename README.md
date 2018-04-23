@@ -7,7 +7,7 @@ Respositorio con el código utilizado para la publicación *Cómo empezar una AP
 
 1. Clonar el proyecto
 
-```git clone https://github.com/nicoavila/tutorial-api-hapi.git````
+```git clone https://github.com/nicoavila/tutorial-api-hapi.git```
 
 2. Ejecutar
 
