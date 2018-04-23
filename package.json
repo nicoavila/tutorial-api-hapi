@@ -1,13 +1,17 @@
 {
   "name": "tutorial-api-hapijs",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Tutorial API RESTful con hapijs",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nicoavila/tutorial-api-hapi"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Nicolas Avila <nicolasavila.a@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "hapi": "^17.3.1"
